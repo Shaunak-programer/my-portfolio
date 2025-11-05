@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHAUNAK - Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#home" class="logo">SHAUNAK</a>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm SHAUNAK</h1>
+            <h2>[Your Professional Headline | e.g., Full-Stack Developer & Data Analyst]</h2>
+            <p>A concise, punchy mission statement about what you do best and what value you bring.</p>
+            <a href="#portfolio" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about container">
+        <div class="profile-card">
+            <img src="pexels-pixabay-247431.jpg" alt="Your professional profile picture" class="profile-img">
+            <div class="profile-details">
+                <h3>About Me</h3>
+                <p>Edit this paragraph to introduce yourself. Focus on your career journey, passion, and unique skills.</p>
+                <p>Currently seeking opportunities in **[Your Industry]**.</p>
+                <a href="your-resume.pdf" download class="button secondary-button">Download Resume (PDF)</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio container">
+        <h2>📂 Featured Projects</h2>
+
+        <article class="project-card">
+            <img src="project-image-1.jpg" alt="Project 1 Image">
+            <h3>Project Title One</h3>
+            <p class="role">Role: Lead Developer</p>
+            <p>A brief description of the project, the problem it solved, and the key technologies used. **Focus on the impact!**</p>
+            <a href="#" class="button">View Case Study</a>
+        </article>
+
+        <article class="project-card">
+            <img src="project-image-2.jpg" alt="Project 2 Image">
+            <h3>Project Title Two</h3>
+            <p class="role">Role: UX Designer</p>
+            <p>Highlight the process, your contribution, and measurable results (e.g., "Improved user retention by 20%").</p>
+            <a href="#" class="button">View Case Study</a>
+        </article>
+
+    </section>
+
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2>🏆 Skills & Achievements</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-group">
+                    <h4>Technical Skills</h4>
+                    <ul>
+                        <li>HTML5, CSS3, JavaScript</li>
+                        <li>Python (Pandas, NumPy)</li>
+                        <li>[Another Key Skill]</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-group">
+                    <h4>Awards & Recognition</h4>
+                    <ul>
+                        <li>**[Award Name]** - [Year]</li>
+                        <li>**[Certification/Course]** - [Platform]</li>
+                        <li>[Testimonial Snippet]</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact container">
+        <h2>✉️ Get In Touch</h2>
+        <form action="https://formsubmit.co/shaunak281@zohomail.in" method="POST" class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+        <p class="social-links">
+    <a href="https://linkedin.com/in/yourprofile">LinkedIn</a> |
+    <a href="https://github.com/yourprofile">GitHub</a> |
+    
+    <a href="mailto:shaunak281@zohomail.in?subject=Job%20Opportunity%20Inquiry">Recruiting Mail</a> |
+    
+    <a href="mailto:shaunak281@gmail.com?subject=General%20Contact%20from%20Portfolio">General Mail</a>
+</p>
+    </section>
+
+    <div class="background-controls container">
+        <p>Customize Background Theme:</p>
+        <button id="bg-default" data-bg="default">Default (Light)</button>
+        <button id="bg-dark" data-bg="dark">Dark Theme</button>
+        <button id="bg-live" data-bg="live">Live Texture</button>
+        <button id="bg-custom-trigger" data-bg="custom">Custom Image</button>
+    </div>
+    <p class="note" style="text-align: center; margin-bottom: 20px; font-size: 0.9em; color: #6c757d;">
+        *Note: The "Custom Image" button loads an image pre-set in the `style.css` file.*
+    </p>
+
+    <footer>
+        <p>&copy; 2025 SHAUNAK. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
